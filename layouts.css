@@ -1,0 +1,144 @@
+/* CSS Document */
+
+#container {
+	width: 1000px;
+	margin: auto;
+	padding: 10px;
+	background-color:#FFCC00;
+	/* official USC web color */	
+	border-radius: 9px;
+}
+
+header {
+	padding: 10 10px;
+	margin-bottom: 10px;
+	background-color:#990000; 
+	/* official USC web color */	
+}
+
+a {
+	text-decoration: none;
+	color: #FFCC00;
+	/* official USC web color */
+}
+
+.name{
+	text-align: center;	
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0;
+}
+
+.company, .title {
+	display:block;
+	font-size: 16pt;
+	font-weight: normal;
+	text-style: italic;	
+}
+
+.title {
+	font-style: italic;	
+}
+
+.headshot {
+	width: 100px;
+	float: left;	
+	
+}
+
+nav {
+	margin: auto;
+	height: 20px;
+	border: 1px solid blue;	
+	background-color: black;
+	padding: 6px;	
+}
+
+.navelement {
+	width: 30%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;	
+	float:left;
+	margin: 0 1.66666%;
+	padding: 0;
+	background-color: steelblue;
+}
+
+.navelement:hover {
+	background-color: lightsteelblue;
+	font-weight: bold;
+}
+
+.navelement:hover a {
+	color:steelblue;
+}
+
+#content {
+	clear:both;	
+	margin: 0px 100px;
+}
+.onecolumn {
+	width: 98%;
+	clear:both;	
+	padding: 0 1%;
+	background-color: white;
+//	margin: 3px 0;
+}
+
+.twocolumn {
+	width: 47%;
+	float:left;
+	padding: 0px 1%;
+	margin:3px 0.5%;	
+	background-color: teal;
+}
+
+.threecolumn {
+	width: 30.33333%;
+	float:left;
+	padding: 0px 1%;
+	margin: 3px 0.5%;	
+	background-color: pink;
+}
+
+.colspace {
+	width: 2%;
+	float:left;
+}
+
+.sideimage {
+	height: 150px;
+	float: right;	
+}
+
+.centerimage {
+	width: 100%;
+}
+.bc {
+	clear:both;	
+}
+.center {
+	text-align: center;
+	margin-bottom: 0;	
+}
+
+.clear {
+	clear:both;	
+}
+
+footer {
+	clear:both;	
+	text-align: right;
+	font-style: italic;
+	margin-top: 12px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+p {
+    margin: 0;
+}
